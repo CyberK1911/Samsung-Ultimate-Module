@@ -14,7 +14,7 @@ The Ultimate S22 module ports features which are exclusive to newer devices, to 
 > * S22 Ultra (SM-S908 / b0q)
 
 > [!WARNING]
-> The Ultimate S22 module _only_ supports the **Snapdragon variant** of these devices!
+> The Ultimate S22 module currently _only_ supports the **Snapdragon variant** of these devices!
 
 > [!NOTE]
 > There is also an Ultimate module for S23 series devices. Please see the [main S23 branch](/../main/) of this repo for the Ultimate S23 module.
