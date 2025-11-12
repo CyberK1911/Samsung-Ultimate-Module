@@ -8,9 +8,9 @@ The Ultimate S22 module aims to port features which are exclusive to newer devic
 
 > [!IMPORTANT] 
 > The Ultimate module currently supports these devices:
-> * S22 (SM‑S901, r0q )
-> * S22+ (SM-S906, g0q )
-> * S22 Ultra (SM-S908, b0q )
+> * S22 (SM‑S901, r0q) ⚠️ Snapdragon only!
+> * S22+ (SM-S906, g0q) ⚠️ Snapdragon only!
+> * S22 Ultra (SM-S908, b0q) ⚠️ Snapdragon only!
 
 > [!NOTE]
 > There is also an Ultimate module for S23 series devices. Please see the [main S23 branch](/../main/) of this repo for the Ultimate S23 module.
