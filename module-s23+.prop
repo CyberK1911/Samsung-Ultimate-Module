@@ -1,8 +1,8 @@
 id=CyberK_S23X
 name= Ultimate S23+
-version= V3.7.M
-versionCode=37
-author=@CyberK1 | Alireza | DaManMikey
+version= V3.6
+versionCode=36
+author=@CyberK1 | Alireza
 description=S23=>S25 | All S25 features ported
 post-fs-data=true
 skip_mount=false

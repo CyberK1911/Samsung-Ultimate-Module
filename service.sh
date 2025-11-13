@@ -23,6 +23,15 @@ log() {
 
 log "=== Service Start ==="
 
-log "No GPU changes applied, running with default system renderer (OpenGL)"
+# Wait for full boot
+log "Waiting for boot completion..."
+until [ "$(getprop sys.boot_completed)" = "1" ] && [ "$(getprop init.svc.bootanim)" = "stopped" ]; do
+    sleep 2
+done
+
+# 3. GPU Renderer setting
+setprop debug.hwui.renderer skiavk && log "GPU renderer set 111" || log "GPU set failed 111"
+
+setprop debug.hwui.renderer skiavk && log "GPU renderer set 222" || log "GPU set failed 222"
 
 log "=== Service Complete ==="
